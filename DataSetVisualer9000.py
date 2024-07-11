@@ -81,7 +81,7 @@ for country in medals_per_country_year['country_3_letter_code'].unique():
     plt.plot(trendline_years.flatten(), trendline_pred, linestyle='--', alpha=0.6, color=color_map[country])
 
 # titles and labels
-plt.title('Medals Won by Top 10 Countries per Year (with Predictions for 2024)')
+plt.title('Medals Won by Top 10 Countries per Year (with Predictions for 2024) [Summer Games]')
 plt.xlabel('Year')
 plt.ylabel('Number of Medals')
 plt.legend(title='Country', bbox_to_anchor=(1.05, 1), loc='upper left')
