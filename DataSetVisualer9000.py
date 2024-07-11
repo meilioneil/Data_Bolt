@@ -1,40 +1,72 @@
 import os
 import numpy as np
 import pandas as pd
+import seaborn as sns
 from matplotlib import pyplot as plt
-import plotly.express as px #change later
-#from kaggle Olympic Games EDA
-hosts = r'Olympics/olympic_hosts.csv'
-medals = r'Olympics/olympic_medals.csv'
-results = r'Olympics/olympic_results.csv'
-athletes = r'Olympics/olympic_athletes.csv'
+import plotly.express as px
+
+# File paths
+hosts = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_hosts.csv'
+medals = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_medals.csv'
+results = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_results.csv'
+athletes = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_athletes.csv'
 additional_data = r'C:\Users\ASUS PC\Downloads\Olympics\Summer-Olympic-medals-1976-to-2008.csv'
+
+# Load datasets
 olympics_hosts = pd.read_csv(hosts)
 olympics_athletes = pd.read_csv(athletes)
 olympics_medals = pd.read_csv(medals)
 olympics_results = pd.read_csv(results)
-additional_olympics_info = pd.read_csv(additional_data,delimiter=",", encoding='latin1')
-additional_olympics_info["Country_Code"].replace({"URS": "RUS",
-                             "ROC": "RUS",
-                             "OAR": "RUS",
-                             "ORS": "RUS",
-                             "GDR": "GER",
-                             "FRG": "GER"}, inplace=True)
-additional_olympics_info["Country"].replace({"Russian Federation": "Russia",
-                        "Soviet Union": "Russia",
-                        "Unified team": "Russia",
-                        "West Germany": "Germany",
-                        "East Germany": "Germany"}, inplace=True)
-df_temp = additional_olympics_info[additional_olympics_info["Sport"].isin(['Aquatics','Archery', 'Athletics', 'Boxing', 'Canoe / Kayak',
-                                                                       'Cycling', 'Equestrian', 'Fencing', 'Gymnastics', 'Judo', 'Modern Pentathlon',
-                                                                        'Rowing', 'Sailing', 'Shooting', 'Weightlifting', 'Wrestling',
-                                                                       'Table Tennis', 'Tennis', 'Badminton', 'Taekwondo', 'Triathlon'])]
+additional_olympics_info = pd.read_csv(additional_data, delimiter=",", encoding='latin1')
 
-# Group and aggregate the filtered data
-df3 = df_temp.groupby(['Sport', 'Country', 'Country_Code', 'Year']).agg(Medal_size=('Medal', 'size')).sort_values('Medal_size', ascending=False).head(100).reset_index()
+# Replace country codes and names
+replacement_dict = {"URS": "RUS", "ROC": "RUS", "OAR": "RUS", "ORS": "RUS", "GDR": "GER", "FRG": "GER"}
+additional_olympics_info["Country_Code"].replace(replacement_dict, inplace=True)
+additional_olympics_info["Country"].replace({
+    "Russian Federation": "Russia",
+    "Soviet Union": "Russia",
+    "Unified team": "Russia",
+    "West Germany": "Germany",
+    "East Germany": "Germany"
+}, inplace=True)
 
-del df_temp
+# Replace country codes in olympics_medals and olympics_results
+olympics_medals["country_3_letter_code"].replace(replacement_dict, inplace=True)
+olympics_results["country_3_letter_code"].replace(replacement_dict, inplace=True)
 
+# Merge datasets
+olympics_results = pd.merge(olympics_hosts, olympics_medals, left_on='game_slug', right_on='slug_game', how='left')
 
-fig = px.histogram(df3, x='Country', y='Medal_size',hover_name='Country',  color='Sport', title='Top Medal winning nations and Sports')
-fig.update_layout(legend_title_text='Sport')
+# Filter for medals and summer games
+Medals = olympics_results[(olympics_results['medal_type'].isin(['BRONZE', 'SILVER', 'GOLD'])) & (olympics_results['game_season'] == 'Summer')]
+
+# Aggregate total medals by country
+total_medals_by_country = Medals['country_3_letter_code'].value_counts().reset_index()
+total_medals_by_country.columns = ['country_3_letter_code', 'total_medals']
+
+# Get the top 10 countries by total medals
+top_10_countries = total_medals_by_country.head(10)['country_3_letter_code'].tolist()
+
+# Filter the medals data for only the top 10 countries
+top_10_medals = Medals[Medals['country_3_letter_code'].isin(top_10_countries)]
+
+# Aggregate medals by country and year for the top 10 countries
+medals_per_country_year = top_10_medals.groupby(['country_3_letter_code', 'game_year']).size().reset_index(name='medal_count')
+
+# Create the plot
+plt.figure(figsize=(14, 8))
+for country in medals_per_country_year['country_3_letter_code'].unique():
+    country_data = medals_per_country_year[medals_per_country_year['country_3_letter_code'] == country]
+    plt.plot(country_data['game_year'], country_data['medal_count'], marker='o', label=country)
+
+# Add titles and labels
+plt.title('Medals Won by Top 10 Countries per Year')
+plt.xlabel('Year')
+plt.ylabel('Number of Medals')
+plt.legend(title='Country', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.grid(True)
+
+# Display the plot
+plt.tight_layout()
+plt.show()
+
