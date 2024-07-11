@@ -57,6 +57,7 @@ header {
 .header-wrapper .menu_left_wrapper {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .header-wrapper {
