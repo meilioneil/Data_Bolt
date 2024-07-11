@@ -5,7 +5,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 import plotly.express as px
 
-# File paths
+# File paths <- make sure to change these in github!!
 hosts = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_hosts.csv'
 medals = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_medals.csv'
 results = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_results.csv'
@@ -19,7 +19,7 @@ olympics_medals = pd.read_csv(medals)
 olympics_results = pd.read_csv(results)
 additional_olympics_info = pd.read_csv(additional_data, delimiter=",", encoding='latin1')
 
-# Replace country codes and names
+# Replace country codes and names <- some countries have been combined
 replacement_dict = {"URS": "RUS", "ROC": "RUS", "OAR": "RUS", "ORS": "RUS", "GDR": "GER", "FRG": "GER"}
 additional_olympics_info["Country_Code"].replace(replacement_dict, inplace=True)
 additional_olympics_info["Country"].replace({
@@ -30,11 +30,11 @@ additional_olympics_info["Country"].replace({
     "East Germany": "Germany"
 }, inplace=True)
 
-# Replace country codes in olympics_medals and olympics_results
+# Replace country codes in olympics_medals and olympics_results <- from the above
 olympics_medals["country_3_letter_code"].replace(replacement_dict, inplace=True)
 olympics_results["country_3_letter_code"].replace(replacement_dict, inplace=True)
 
-# Merge datasets
+# Merge datasets <- just for ease
 olympics_results = pd.merge(olympics_hosts, olympics_medals, left_on='game_slug', right_on='slug_game', how='left')
 
 # Filter for medals and summer games
