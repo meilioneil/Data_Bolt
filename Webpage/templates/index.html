@@ -22,6 +22,18 @@
             </div>
         </header>
 
+        <div class="main_tab_slide">
+            <ul class="nav nav-tabs" id="myTabmain" role="tablist">
+                {% for section in sections %}
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="main-tab" data-bs-toggle="tab" data-bs-target="#mainTab" type="button" role="tab" aria-selected="true">
+                        {{ section }}
+                    </button>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
 
 
     </body>
