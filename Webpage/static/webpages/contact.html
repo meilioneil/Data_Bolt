@@ -5,156 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>2024 Paris Olympics Prediction</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Contact Us - 2024 Paris Olympics Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style_contact.css') }}">
 </head>
 
-    <body>
-    <div style="width: 1200px; height: 1610px; background: #2C2C2C; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-        <div style="align-self: stretch; height: 103px; padding: 32px; background: white; border-bottom: 1px #D9D9D9 solid; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex"></div>
-        <div style="align-self: stretch; height: 1022px; padding-left: 24px; padding-right: 24px; padding-top: 160px; padding-bottom: 160px; background: #F5F5F5; flex-direction: column; justify-content: center; align-items: center; gap: 32px; display: flex">
-        <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-            <div style="align-self: stretch; text-align: center; color: #2C2C2C; font-size: 72px; font-family: Inter; font-weight: 700; line-height: 86.40px; word-wrap: break-word">Contact Us!</div>
-            <div style="align-self: stretch; text-align: center; color: #2C2C2C; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 38.40px; word-wrap: break-word">Any questions you might have</div>
-        </div>
-        <div style="padding: 24px; background: white; border-radius: 8px; border: 1px #D9D9D9 solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-            <div style="align-self: stretch; height: 70px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-            <div style="align-self: stretch; color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Name</div>
-            <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 8px; overflow: hidden; border: 1px #D9D9D9 solid; justify-content: flex-start; align-items: center; display: inline-flex">
-                <div style="flex: 1 1 0; color: #B3B3B3; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 16px; word-wrap: break-word">Value</div>
+<body>
+    <div class="container">
+        <header class="header"></header>
+
+        <main class="main">
+            <section class="contact-us">
+                <h1>Contact Us!</h1>
+                <p>Any questions you might have</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname" placeholder="Your Surname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-column">
+                <h2>Use cases</h2>
+                <ul>
+                    <li>UI design</li>
+                    <li>UX design</li>
+                    <li>Wireframing</li>
+                    <li>Diagramming</li>
+                    <li>Brainstorming</li>
+                    <li>Online whiteboard</li>
+                    <li>Team collaboration</li>
+                </ul>
             </div>
+            <div class="footer-column">
+                <h2>Explore</h2>
+                <ul>
+                    <li>Design</li>
+                    <li>Prototyping</li>
+                    <li>Development features</li>
+                    <li>Design systems</li>
+                    <li>Collaboration features</li>
+                    <li>Design process</li>
+                    <li>FigJam</li>
+                </ul>
             </div>
-            <div style="align-self: stretch; height: 70px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-            <div style="align-self: stretch; color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Surname</div>
-            <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 8px; overflow: hidden; border: 1px #D9D9D9 solid; justify-content: flex-start; align-items: center; display: inline-flex">
-                <div style="flex: 1 1 0; color: #B3B3B3; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 16px; word-wrap: break-word">Value</div>
+            <div class="footer-column">
+                <h2>Resources</h2>
+                <ul>
+                    <li>Blog</li>
+                    <li>Best practices</li>
+                    <li>Colors</li>
+                    <li>Color wheel</li>
+                    <li>Support</li>
+                    <li>Developers</li>
+                    <li>Resource library</li>
+                </ul>
             </div>
-            </div>
-            <div style="align-self: stretch; height: 70px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-            <div style="align-self: stretch; color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Email</div>
-            <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 8px; overflow: hidden; border: 1px #D9D9D9 solid; justify-content: flex-start; align-items: center; display: inline-flex">
-                <div style="flex: 1 1 0; color: #B3B3B3; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 16px; word-wrap: break-word">Value</div>
-            </div>
-            </div>
-            <div style="align-self: stretch; height: 110px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-            <div style="align-self: stretch; color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Message</div>
-            <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 8px; overflow: hidden; border: 1px #D9D9D9 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="flex: 1 1 0; color: #B3B3B3; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Value</div>
-                <div style="width: 6.63px; height: 6.63px; border: 1px #B3B3B3 solid"></div>
-            </div>
-            </div>
-            <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
-            <div style="flex: 1 1 0; height: 40px; padding: 12px; background: #2C2C2C; border-radius: 8px; overflow: hidden; border: 1px #2C2C2C solid; justify-content: center; align-items: center; gap: 8px; display: flex">
-                <div style="color: #F5F5F5; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 16px; word-wrap: break-word">Submit</div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div style="align-self: stretch; height: 485px; padding-top: 32px; padding-bottom: 160px; padding-left: 32px; padding-right: 32px; background: white; border-top: 1px #D9D9D9 solid; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
-        <div style="width: 262px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-            <div style="justify-content: center; align-items: center; display: inline-flex">
-            <div style="width: 23.33px; height: 35px; border: 3.50px #1E1E1E solid"></div>
-            </div>
-            <div style="justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
-            <div style="width: 23.98px; height: 24px; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
-                <div style="width: 23.98px; height: 24px; background: #1E1E1E"></div>
-            </div>
-            <div style="width: 24px; height: 24px; justify-content: center; align-items: center; display: flex">
-                <div style="width: 24px; height: 24px; background: #1E1E1E"></div>
-            </div>
-            <div style="width: 24px; height: 24px; padding-top: 3px; padding-bottom: 3px; justify-content: center; align-items: center; display: flex">
-                <div style="width: 24px; height: 18px; background: #1E1E1E"></div>
-            </div>
-            <div style="width: 24px; height: 24px; justify-content: center; align-items: center; display: flex">
-                <div style="width: 24px; height: 24px; background: #1E1E1E"></div>
-            </div>
-            </div>
-        </div>
-        <div style="width: 262px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-            <div style="align-self: stretch; height: 38px; padding-bottom: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-            <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 600; line-height: 22.40px; word-wrap: break-word">Use cases</div>
-            </div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 17px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">UI design</div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 11px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">UX design</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: center; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Wireframing</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Diagramming</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Brainstorming</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Online whiteboard</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Team collaboration</div>
-            </div>
-        </div>
-        <div style="width: 262px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-            <div style="align-self: stretch; height: 38px; padding-bottom: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-            <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 600; line-height: 22.40px; word-wrap: break-word">Explore</div>
-            </div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 36px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Design</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: center; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Prototyping</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Development features</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Design systems</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Collaboration features</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Design process</div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 34px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">FigJam</div>
-            </div>
-        </div>
-        <div style="width: 262px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-            <div style="align-self: stretch; height: 38px; padding-bottom: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-            <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 600; line-height: 22.40px; word-wrap: break-word">Resources</div>
-            </div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 55px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Blog</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Best practices</div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 40px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Colors</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: center; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Color wheel</div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 28px; justify-content: flex-start; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Support</div>
-            </div>
-            <div style="width: 89px; height: 22px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Developers</div>
-            </div>
-            <div style="width: 89px; height: 22px; justify-content: flex-end; align-items: center; display: inline-flex">
-            <div style="color: #1E1E1E; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Resource library</div>
-            </div>
-        </div>
-        </div>
+        </footer>
     </div>
 </body>
 
