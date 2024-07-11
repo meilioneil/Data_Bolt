@@ -5,12 +5,14 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.linear_model import LinearRegression
 
+
 # File paths
-hosts = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_hosts.csv'
-medals = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_medals.csv'
-results = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_results.csv'
-athletes = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_athletes.csv'
-additional_data = r'C:\Users\ASUS PC\Downloads\Olympics\Summer-Olympic-medals-1976-to-2008.csv'
+#hosts = r'Olympics\olympic_hosts.csv'
+hosts = f'{os.getcwd()}\Data\Olympics\olympic_hosts.csv'
+medals = f'{os.getcwd()}\Data\Olympics\olympic_medals.csv'
+results = f'{os.getcwd()}\Data\Olympics\olympic_results.csv'
+athletes = f'{os.getcwd()}\Data\Olympics\olympic_athletes.csv'
+additional_data = f'{os.getcwd()}\Data\Olympics\Summer-Olympic-medals-1976-to-2008.csv'
 
 # Load datasets
 olympics_hosts = pd.read_csv(hosts)
