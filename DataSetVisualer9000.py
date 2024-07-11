@@ -4,11 +4,10 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import plotly.express as px #change later
 #from kaggle Olympic Games EDA
-#You'll have to change the paths to the path to the .csv file on your end, when we upload this version on github we can put the path much more easily
-hosts = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_hosts.csv'
-medals = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_medals.csv'
-results = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_results.csv'
-athletes = r'C:\Users\ASUS PC\Downloads\Olympics\olympic_athletes.csv'
+hosts = r'Olympics\olympic_hosts.csv'
+medals = r'Olympics\olympic_medals.csv'
+results = r'Olympics\olympic_results.csv'
+athletes = r'Olympics\olympic_athletes.csv'
 additional_data = r'C:\Users\ASUS PC\Downloads\Olympics\Summer-Olympic-medals-1976-to-2008.csv'
 olympics_hosts = pd.read_csv(hosts)
 olympics_athletes = pd.read_csv(athletes)
