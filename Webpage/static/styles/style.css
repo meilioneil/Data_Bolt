@@ -24,6 +24,7 @@ body {
 .logo img {
     height: 60px;
     width: auto;
+    padding-left: 20%;
 }
 
 .navbar ul {
