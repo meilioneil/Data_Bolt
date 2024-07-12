@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Data Bolts - Codedex Hackathon 2024</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_information.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="header">
+        <header class="header">
             <div class="logo">
-                <img src="/images/logo.png" alt="Logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Data Bolt Logo">
+                </a>
             </div>
-            <div class="navbar">
+            <nav class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="graphs.html">More Graphs</a></li>
+                    <li><a href="information.html"><u>Information</u></a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </header>
 
         <div class="intro">
-            <h1>Data Bolts - Codedex Hackathon 2024</h1>
-            <h2>For graphing Olympic data and predicting the performance of countries.</h2>
-            <img src="/images/graphs/Figure_1.png" alt="graph">
+            <h1>Olympics 2024 Prediction</h1>
+            <h2>Brought to you by Data Bolt</h2>
         </div>
 
         <div class="content-section">
-            <div class="text-content">
-                <h3>Description</h3>
-                <p>Data Bolt is a comprehensive tool designed to visualize Olympic data and predict future performance trends of various countries. By utilizing historical data and machine learning models, it generates insightful graphs and predictions, helping analysts and enthusiasts to understand and forecast Olympic outcomes.</p>
+            <div class="content-section-one">
+                <img src="images/graphs/Figure_1.png" alt="Olympics Image">
+            </div>
+            <div class="content-section-two">
+                <div class="text-content">
+                    <h3>Some Context...</h3>
+                    <p>Data Bolt is a comprehensive tool designed to visualize Olympic data and predict future performance trends of various countries. By utilizing historical data and machine learning models, it generates insightful graphs and predictions, helping analysts and enthusiasts to understand and forecast Olympic outcomes.</p>
+                </div>
             </div>
         </div>
 
@@ -104,7 +114,7 @@ plt.title('Olympic Medal Count Over the Years')
 plt.xlabel('Year')
 plt.ylabel('Medal Count')
 plt.legend(title='Country')
-plt.savefig('/images/graphs/Figure_1.png')
+plt.savefig('Webpage/static/Figure_1.png')
 </code>
                 </pre>
             </div>
@@ -203,27 +213,7 @@ python -m pip help
             </div>
         </div>
 
-        <div class="content-section">
-            <div class="text-content">
-                <h3>Version History</h3>
-                <ul>
-                    <li>0.2
-                        <ul>
-                            <li>Various bug fixes and optimizations</li>
-                            <li>Uploaded OlymPicsGenerator500 -> with every summer event figure</li>
-                            <li>Uploaded the webpage</li>
-                            <li>See <a href="#">commit change</a> or See <a href="#">release history</a></li>
-                        </ul>
-                    </li>
-                    <li>0.1
-                        <ul>
-                            <li>Initial Release, only DataSetVisualiser9000, and overall figure</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
+        
         <div class="content-section">
             <div class="text-content">
                 <h3>License</h3>
@@ -244,32 +234,108 @@ python -m pip help
             </div>
         </div>
 
-        <div class="footer">
+
+
+        </div>
+ 
+
+        <div class="content-section">
+            <h2>Help</h2>
+            <p>For common issues or further assistance, you can use the following command:</p>
+            <pre><code>python -m pip help</code></pre>
+            <p>Check if all required libraries are installed and the data paths are correct.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Authors</h2>
+            <p>Contributors names and contact info:</p>
+            <ul>
+                <li>Faisal Mujawar <a href="https://www.linkedin.com/in/faisal-mujawar/">Linkedin</a></li>
+                <li>Mei Li Garcia O’Neil <a href="https://www.linkedin.com/in/mei-li-oneil-a17b57229/">Linkedin</a></li>
+                <li>Anthony Padilla <a href="https://www.linkedin.com/in/anthony-padilla-9401a0247/">Linkedin</a></li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Version History</h2>
+            <ul>
+                <li>0.2
+                    <ul>
+                        <li>Various bug fixes and optimizations</li>
+                        <li>Uploaded OlymPicsGenerator500 -> with every summer event figure</li>
+                        <li>Uploaded the webpage</li>
+                        <li>See [commit change]() or See [release history]()</li>
+                    </ul>
+                </li>
+                <li>0.1
+                    <ul>
+                        <li>Initial Release, only DataSetVisualiser9000, and overall figure</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>License</h2>
+            <p>This project is licensed under the MIT License - see the LICENSE.md file for details.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Acknowledgments</h2>
+            <p>Inspiration, code snippets, etc.:</p>
+            <ul>
+                <li><a href="https://github.com/matiassingers/awesome-readme">awesome-readme</a></li>
+                <li><a href="https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018">Olympic Data 1896-2022</a></li>
+                <li><a href="https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals">Summer Olympics Medals (1976-2008)</a></li>
+                <li><a href="https://github.com/stefmolin">Stefanie Molin</a></li>
+            </ul>
+        </div>
+
+        <footer class="footer">
             <div class="footer-column">
-                <h2>Footer Column 1</h2>
+                <h2>Use cases</h2>
                 <ul>
-                    <li>Footer Link 1</li>
-                    <li>Footer Link 2</li>
-                    <li>Footer Link 3</li>
+                    <li>UI design</li>
+                    <li>UX design</li>
+                    <li>Wireframing</li>
+                    <li>Diagramming</li>
+                    <li>Brainstorming</li>
+                    <li>Online whiteboard</li>
+                    <li>Team collaboration</li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h2>Footer Column 2</h2>
+                <h2>Explore</h2>
                 <ul>
-                    <li>Footer Link 4</li>
-                    <li>Footer Link 5</li>
-                    <li>Footer Link 6</li>
+                    <li>Design</li>
+                    <li>Prototyping</li>
+                    <li>Development features</li>
+                    <li>Design systems</li>
+                    <li>Collaboration features</li>
+                    <li>Design process</li>
+                    <li>FigJam</li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h2>Footer Column 3</h2>
+                <h2>Resources</h2>
                 <ul>
-                    <li>Footer Link 7</li>
-                    <li>Footer Link 8</li>
-                    <li>Footer Link 9</li>
+                    <li>Blog</li>
+                    <li>Best practices</li>
+                    <li>Colors</li>
+                    <li>Color wheel</li>
+                    <li>Support</li>
+                    <li>Developers</li>
+                    <li>Resource library</li>
                 </ul>
             </div>
+        </footer>
+
+        <div class="end-of-results">
+            <div></div>
+            <span>END OF RESULTS</span>
+            <div></div>
         </div>
     </div>
 </body>
+
 </html>
