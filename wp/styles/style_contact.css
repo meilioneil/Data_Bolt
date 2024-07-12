@@ -1,0 +1,158 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C2C;
+    color: #2C2C2C;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.header {
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #E3E3E3;
+}
+
+.container {
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+
+.header {
+    height: 2%;
+    padding: 0.6%;
+    background: white;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.main {
+    padding: 160px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us h1 {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-us p {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-form {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 99%;
+    max-width: 600px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 12px 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder, 
+.form-group textarea::placeholder {
+    color: #B3B3B3;
+}
+
+.submit-button {
+    background: #2C2C2C;
+    color: #F5F5F5;
+    padding: 12px;
+    border: 1px solid #2C2C2C;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    background: white;
+    padding: 32px;
+    border-top: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.footer-column h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}

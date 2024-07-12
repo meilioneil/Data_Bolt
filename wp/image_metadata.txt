@@ -1,0 +1,504 @@
+{
+    "id": "3x3 Basketball_medals",
+    "src": "/images/graphs/3x3 Basketball_medals.png",
+    "title": "3x3 Basketball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Archery_medals",
+    "src": "/images/graphs/Archery_medals.png",
+    "title": "Archery_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Artistic Gymnastics_medals",
+    "src": "/images/graphs/Artistic Gymnastics_medals.png",
+    "title": "Artistic Gymnastics_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Artistic Swimming_medals",
+    "src": "/images/graphs/Artistic Swimming_medals.png",
+    "title": "Artistic Swimming_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Athletics_medals",
+    "src": "/images/graphs/Athletics_medals.png",
+    "title": "Athletics_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Badminton_medals",
+    "src": "/images/graphs/Badminton_medals.png",
+    "title": "Badminton_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Baseball_medals",
+    "src": "/images/graphs/Baseball_medals.png",
+    "title": "Baseball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Baseball_Softball_medals",
+    "src": "/images/graphs/Baseball_Softball_medals.png",
+    "title": "Baseball_Softball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Basketball_medals",
+    "src": "/images/graphs/Basketball_medals.png",
+    "title": "Basketball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Basque Pelota_medals",
+    "src": "/images/graphs/Basque Pelota_medals.png",
+    "title": "Basque Pelota_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Beach Volleyball_medals",
+    "src": "/images/graphs/Beach Volleyball_medals.png",
+    "title": "Beach Volleyball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Boxing_medals",
+    "src": "/images/graphs/Boxing_medals.png",
+    "title": "Boxing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Canoe Marathon_medals",
+    "src": "/images/graphs/Canoe Marathon_medals.png",
+    "title": "Canoe Marathon_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Canoe Slalom_medals",
+    "src": "/images/graphs/Canoe Slalom_medals.png",
+    "title": "Canoe Slalom_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Canoe Sprint_medals",
+    "src": "/images/graphs/Canoe Sprint_medals.png",
+    "title": "Canoe Sprint_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cricket_medals",
+    "src": "/images/graphs/Cricket_medals.png",
+    "title": "Cricket_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Croquet_medals",
+    "src": "/images/graphs/Croquet_medals.png",
+    "title": "Croquet_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cycling BMX Freestyle_medals",
+    "src": "/images/graphs/Cycling BMX Freestyle_medals.png",
+    "title": "Cycling BMX Freestyle_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cycling BMX Racing_medals",
+    "src": "/images/graphs/Cycling BMX Racing_medals.png",
+    "title": "Cycling BMX Racing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cycling BMX_medals",
+    "src": "/images/graphs/Cycling BMX_medals.png",
+    "title": "Cycling BMX_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cycling Mountain Bike_medals",
+    "src": "/images/graphs/Cycling Mountain Bike_medals.png",
+    "title": "Cycling Mountain Bike_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cycling Road_medals",
+    "src": "/images/graphs/Cycling Road_medals.png",
+    "title": "Cycling Road_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Cycling Track_medals",
+    "src": "/images/graphs/Cycling Track_medals.png",
+    "title": "Cycling Track_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Diving_medals",
+    "src": "/images/graphs/Diving_medals.png",
+    "title": "Diving_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Equestrian  Vaulting_medals",
+    "src": "/images/graphs/Equestrian  Vaulting_medals.png",
+    "title": "Equestrian  Vaulting_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Equestrian Dressage_medals",
+    "src": "/images/graphs/Equestrian Dressage_medals.png",
+    "title": "Equestrian Dressage_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Equestrian Eventing_medals",
+    "src": "/images/graphs/Equestrian Eventing_medals.png",
+    "title": "Equestrian Eventing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Equestrian Jumping_medals",
+    "src": "/images/graphs/Equestrian Jumping_medals.png",
+    "title": "Equestrian Jumping_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Equestrian_medals",
+    "src": "/images/graphs/Equestrian_medals.png",
+    "title": "Equestrian_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Fencing_medals",
+    "src": "/images/graphs/Fencing_medals.png",
+    "title": "Fencing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Figure skating_medals",
+    "src": "/images/graphs/Figure skating_medals.png",
+    "title": "Figure skating_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Figure_1",
+    "src": "/images/graphs/Figure_1.png",
+    "title": "Figure_1",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Football_medals",
+    "src": "/images/graphs/Football_medals.png",
+    "title": "Football_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Golf_medals",
+    "src": "/images/graphs/Golf_medals.png",
+    "title": "Golf_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Gymnastics Artistic_medals",
+    "src": "/images/graphs/Gymnastics Artistic_medals.png",
+    "title": "Gymnastics Artistic_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Gymnastics Rhythmic_medals",
+    "src": "/images/graphs/Gymnastics Rhythmic_medals.png",
+    "title": "Gymnastics Rhythmic_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Handball_medals",
+    "src": "/images/graphs/Handball_medals.png",
+    "title": "Handball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Hockey_medals",
+    "src": "/images/graphs/Hockey_medals.png",
+    "title": "Hockey_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Ice Hockey_medals",
+    "src": "/images/graphs/Ice Hockey_medals.png",
+    "title": "Ice Hockey_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Jeu de Paume_medals",
+    "src": "/images/graphs/Jeu de Paume_medals.png",
+    "title": "Jeu de Paume_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Judo_medals",
+    "src": "/images/graphs/Judo_medals.png",
+    "title": "Judo_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Karate_medals",
+    "src": "/images/graphs/Karate_medals.png",
+    "title": "Karate_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Lacrosse_medals",
+    "src": "/images/graphs/Lacrosse_medals.png",
+    "title": "Lacrosse_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Marathon Swimming_medals",
+    "src": "/images/graphs/Marathon Swimming_medals.png",
+    "title": "Marathon Swimming_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Modern Pentathlon_medals",
+    "src": "/images/graphs/Modern Pentathlon_medals.png",
+    "title": "Modern Pentathlon_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Polo_medals",
+    "src": "/images/graphs/Polo_medals.png",
+    "title": "Polo_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Rackets_medals",
+    "src": "/images/graphs/Rackets_medals.png",
+    "title": "Rackets_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Rhythmic Gymnastics_medals",
+    "src": "/images/graphs/Rhythmic Gymnastics_medals.png",
+    "title": "Rhythmic Gymnastics_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Roque_medals",
+    "src": "/images/graphs/Roque_medals.png",
+    "title": "Roque_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Rowing_medals",
+    "src": "/images/graphs/Rowing_medals.png",
+    "title": "Rowing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Rugby Sevens_medals",
+    "src": "/images/graphs/Rugby Sevens_medals.png",
+    "title": "Rugby Sevens_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Rugby_medals",
+    "src": "/images/graphs/Rugby_medals.png",
+    "title": "Rugby_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Sailing_medals",
+    "src": "/images/graphs/Sailing_medals.png",
+    "title": "Sailing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Shooting_medals",
+    "src": "/images/graphs/Shooting_medals.png",
+    "title": "Shooting_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Skateboarding_medals",
+    "src": "/images/graphs/Skateboarding_medals.png",
+    "title": "Skateboarding_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Softball_medals",
+    "src": "/images/graphs/Softball_medals.png",
+    "title": "Softball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Sport Climbing_medals",
+    "src": "/images/graphs/Sport Climbing_medals.png",
+    "title": "Sport Climbing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Surfing_medals",
+    "src": "/images/graphs/Surfing_medals.png",
+    "title": "Surfing_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Swimming_medals",
+    "src": "/images/graphs/Swimming_medals.png",
+    "title": "Swimming_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Synchronized Swimming_medals",
+    "src": "/images/graphs/Synchronized Swimming_medals.png",
+    "title": "Synchronized Swimming_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Table Tennis_medals",
+    "src": "/images/graphs/Table Tennis_medals.png",
+    "title": "Table Tennis_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Taekwondo_medals",
+    "src": "/images/graphs/Taekwondo_medals.png",
+    "title": "Taekwondo_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Tennis_medals",
+    "src": "/images/graphs/Tennis_medals.png",
+    "title": "Tennis_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Trampoline Gymnastics_medals",
+    "src": "/images/graphs/Trampoline Gymnastics_medals.png",
+    "title": "Trampoline Gymnastics_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Trampoline_medals",
+    "src": "/images/graphs/Trampoline_medals.png",
+    "title": "Trampoline_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Triathlon_medals",
+    "src": "/images/graphs/Triathlon_medals.png",
+    "title": "Triathlon_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Tug of War_medals",
+    "src": "/images/graphs/Tug of War_medals.png",
+    "title": "Tug of War_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Volleyball_medals",
+    "src": "/images/graphs/Volleyball_medals.png",
+    "title": "Volleyball_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Water Motorsports_medals",
+    "src": "/images/graphs/Water Motorsports_medals.png",
+    "title": "Water Motorsports_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Water Polo_medals",
+    "src": "/images/graphs/Water Polo_medals.png",
+    "title": "Water Polo_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Weightlifting_medals",
+    "src": "/images/graphs/Weightlifting_medals.png",
+    "title": "Weightlifting_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},
+{
+    "id": "Wrestling_medals",
+    "src": "/images/graphs/Wrestling_medals.png",
+    "title": "Wrestling_medals",
+    "paragraph1": "Option 3 paragraph 1 content...",
+    "paragraph2": "Option 3 paragraph 2 content..."
+},

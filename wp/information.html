@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Bolts - Codedex Hackathon 2024</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Logo">
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Data Bolts - Codedex Hackathon 2024</h1>
+            <h2>For graphing Olympic data and predicting the performance of countries.</h2>
+            <img src="/images/graphs/Figure_1.png" alt="graph">
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Description</h3>
+                <p>Data Bolt is a comprehensive tool designed to visualize Olympic data and predict future performance trends of various countries. By utilizing historical data and machine learning models, it generates insightful graphs and predictions, helping analysts and enthusiasts to understand and forecast Olympic outcomes.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Predictive Analysis with Linear Regression</h3>
+                <p>To predict the expected performance of countries in future Olympic events, we employed linear regression models. Linear regression is a simple yet powerful statistical method for modeling the relationship between a dependent variable and one or more independent variables. In this project, the historical performance data of countries, including the number of medals won in past Olympics, served as our dataset.</p>
+                
+                <h4>Process:</h4>
+                <ul>
+                    <li><b>Data Collection:</b> We gathered historical data on Olympic performances from various sources, including medal counts, host countries, and athlete details.</li>
+                    <li><b>Data Cleaning:</b> The data was cleaned and preprocessed to handle missing values, outliers, and ensure consistency.</li>
+                    <li><b>Feature Selection:</b> Relevant features such as past performance, GDP, population, and other socio-economic indicators were selected.</li>
+                    <li><b>Model Training:</b> Using the cleaned data, we trained a linear regression model to learn the patterns and trends.</li>
+                    <li><b>Prediction:</b> The trained model was used to predict future performance, allowing us to estimate the number of medals countries might win in upcoming Olympic events.</li>
+                </ul>
+
+                <h4>Example Code Snippet:</h4>
+                <pre>
+<code>
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+import pandas as pd
+
+# Load data
+data = pd.read_csv('Data/Olympics/olympic_medals.csv')
+
+# Feature selection and target variable
+X = data[['Year', 'GDP', 'Population']]
+y = data['Medal_Count']
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize and train the model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions
+predictions = model.predict(X_test)
+</code>
+                </pre>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Automation with Python Scripting</h3>
+                <p>To streamline the data processing and analysis, we utilized Python scripting to automate various tasks, including compiling results into metadata, generating graphs, and creating reports.</p>
+
+                <h4>Steps:</h4>
+                <ul>
+                    <li><b>Data Compilation:</b> Automated scripts read data from multiple sources and compile them into a unified dataset.</li>
+                    <li><b>Graph Generation:</b> Visualization scripts use libraries like matplotlib and seaborn to create graphs that represent the data visually.</li>
+                    <li><b>Report Generation:</b> Scripts generate detailed reports that include graphs, statistical summaries, and predictions.</li>
+                </ul>
+
+                <h4>Example Code Snippet for Graph Generation:</h4>
+                <pre>
+<code>
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load data
+data = pd.read_csv('Data/Olympics/olympic_medals.csv')
+
+# Plotting
+plt.figure(figsize=(10, 6))
+sns.lineplot(data=data, x='Year', y='Medal_Count', hue='Country')
+plt.title('Olympic Medal Count Over the Years')
+plt.xlabel('Year')
+plt.ylabel('Medal Count')
+plt.legend(title='Country')
+plt.savefig('/images/graphs/Figure_1.png')
+</code>
+                </pre>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Getting Started</h3>
+                <h4>Dependencies</h4>
+                <ul>
+                    <li>Python 3.6 or higher</li>
+                    <li>pandas</li>
+                    <li>numpy</li>
+                    <li>seaborn</li>
+                    <li>matplotlib</li>
+                    <li>scikit-learn</li>
+                </ul>
+                <p>To install the necessary Python libraries, you can use the following command:</p>
+                <pre>
+<code>
+pip install pandas numpy seaborn matplotlib scikit-learn
+</code>
+                </pre>
+
+                <h4>Installing</h4>
+                <ol>
+                    <li>Clone the repository:
+                        <pre>
+<code>
+git clone https://github.com/yourusername/databolt.git
+</code>
+                        </pre>
+                    </li>
+                    <li>Navigate to the project directory:
+                        <pre>
+<code>
+cd databolt
+</code>
+                        </pre>
+                    </li>
+                    <li>Ensure the data files are in the correct directory structure as expected by the scripts.</li>
+                </ol>
+
+                <h4>Executing program</h4>
+                <ol>
+                    <li>Ensure the data files are in the following paths:
+                        <ul>
+                            <li>`Data/Olympics/olympic_hosts.csv`</li>
+                            <li>`Data/Olympics/olympic_medals.csv`</li>
+                            <li>`Data/Olympics/olympic_results.csv`</li>
+                            <li>`Data/Olympics/olympic_athletes.csv`</li>
+                            <li>`Data/Olympics/Summer-Olympic-medals-1976-to-2008.csv`</li>
+                        </ul>
+                    </li>
+                    <li>Run the visualization script:
+                        <pre>
+<code>
+python DataSetVisualier9000.py
+</code>
+                        </pre>
+                    </li>
+                    <li>Run the prediction script:
+                        <pre>
+<code>
+python OlymPicsGenerator500.py
+</code>
+                        </pre>
+                    </li>
+                </ol>
+                <p>The first script (DataSetVisualiser9000) will generate a singular graph, which can be saved if wanted. The second script (OlymPicsGenerator500) will generate plots based on the provided data and save them to an output folder directory.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Help</h3>
+                <p>For common issues or further assistance, you can use the following command:</p>
+                <pre>
+<code>
+python -m pip help
+</code>
+                </pre>
+                <p>Check if all required libraries are installed and the data paths are correct.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Authors</h3>
+                <p>Contributors names and contact info:</p>
+                <ul>
+                    <li>Faisal Mujawar <a href="https://www.linkedin.com/in/faisal-mujawar/">Linkedin</a></li>
+                    <li>Mei Li Garcia O’Neil <a href="https://www.linkedin.com/in/mei-li-oneil-a17b57229/">Linkedin</a></li>
+                    <li>Anthony Padilla <a href="https://www.linkedin.com/in/anthony-padilla-9401a0247/">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Version History</h3>
+                <ul>
+                    <li>0.2
+                        <ul>
+                            <li>Various bug fixes and optimizations</li>
+                            <li>Uploaded OlymPicsGenerator500 -> with every summer event figure</li>
+                            <li>Uploaded the webpage</li>
+                            <li>See <a href="#">commit change</a> or See <a href="#">release history</a></li>
+                        </ul>
+                    </li>
+                    <li>0.1
+                        <ul>
+                            <li>Initial Release, only DataSetVisualiser9000, and overall figure</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>License</h3>
+                <p>This project is licensed under the MIT License - see the LICENSE.md file for details.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="text-content">
+                <h3>Acknowledgments</h3>
+                <p>Inspiration, code snippets, etc.:</p>
+                <ul>
+                    <li><a href="https://github.com/matiassingers/awesome-readme">awesome-readme</a></li>
+                    <li><a href="https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018">Olympic Data 1896-2022</a></li>
+                    <li><a href="https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals">Summer Olympics Medals (1976-2008)</a></li>
+                    <li><a href="https://github.com/stefmolin">Stefanie Molin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <h2>Footer Column 1</h2>
+                <ul>
+                    <li>Footer Link 1</li>
+                    <li>Footer Link 2</li>
+                    <li>Footer Link 3</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Footer Column 2</h2>
+                <ul>
+                    <li>Footer Link 4</li>
+                    <li>Footer Link 5</li>
+                    <li>Footer Link 6</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Footer Column 3</h2>
+                <ul>
+                    <li>Footer Link 7</li>
+                    <li>Footer Link 8</li>
+                    <li>Footer Link 9</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

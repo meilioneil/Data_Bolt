@@ -1,0 +1,515 @@
+{
+    "options": [
+        {
+            "id": "option1",
+            "src": "/images/graphs/Figure_1.png",
+            "title": "Overall",
+            "paragraph1": "Top 3 countries overall: USA, CHN, RUS",
+            "paragraph2": "Option 1 paragraph 2 content..."
+        },
+        {
+            "id": "3x3 Basketball_medals",
+            "src": "/images/graphs/3x3 Basketball_medals.png",
+            "title": "3x3 Basketball_medals",
+            "paragraph1": "Top 3 countries in 3x3 Basketball: RUS (2 medals), LAT (1 medals), SRB (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Archery_medals",
+            "src": "/images/graphs/Archery_medals.png",
+            "title": "Archery_medals",
+            "paragraph1": "Top 3 countries in Archery: KOR (43 medals), USA (33 medals), FRA (25 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Artistic Gymnastics_medals",
+            "src": "/images/graphs/Artistic Gymnastics_medals.png",
+            "title": "Artistic Gymnastics_medals",
+            "paragraph1": "Top 3 countries in Artistic Gymnastics: RUS (8 medals), CHN (8 medals), USA (6 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Artistic Swimming_medals",
+            "src": "/images/graphs/Artistic Swimming_medals.png",
+            "title": "Artistic Swimming_medals",
+            "paragraph1": "Top 3 countries in Artistic Swimming: RUS (3 medals), CHN (3 medals), UKR (3 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Athletics_medals",
+            "src": "/images/graphs/Athletics_medals.png",
+            "title": "Athletics_medals",
+            "paragraph1": "Top 3 countries in Athletics: USA (824 medals), GER (265 medals), RUS (254 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Badminton_medals",
+            "src": "/images/graphs/Badminton_medals.png",
+            "title": "Badminton_medals",
+            "paragraph1": "Top 3 countries in Badminton: CHN (74 medals), KOR (37 medals), INA (31 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Baseball_medals",
+            "src": "/images/graphs/Baseball_medals.png",
+            "title": "Baseball_medals",
+            "paragraph1": "Top 3 countries in Baseball: CUB (5 medals), USA (3 medals), JPN (3 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Baseball_Softball_medals",
+            "src": "/images/graphs/Baseball_Softball_medals.png",
+            "title": "Baseball_Softball_medals",
+            "paragraph1": "Top 3 countries in Baseball/Softball: JPN (2 medals), USA (2 medals), DOM (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Basketball_medals",
+            "src": "/images/graphs/Basketball_medals.png",
+            "title": "Basketball_medals",
+            "paragraph1": "Top 3 countries in Basketball: USA (30 medals), RUS (15 medals), YUG (7 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Basque Pelota_medals",
+            "src": "/images/graphs/Basque Pelota_medals.png",
+            "title": "Basque Pelota_medals",
+            "paragraph1": "Top 3 countries in Basque Pelota: ESP (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Beach Volleyball_medals",
+            "src": "/images/graphs/Beach Volleyball_medals.png",
+            "title": "Beach Volleyball_medals",
+            "paragraph1": "Top 3 countries in Beach Volleyball: BRA (26 medals), USA (22 medals), AUS (6 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Boxing_medals",
+            "src": "/images/graphs/Boxing_medals.png",
+            "title": "Boxing_medals",
+            "paragraph1": "Top 3 countries in Boxing: USA (117 medals), RUS (87 medals), CUB (78 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Canoe Marathon_medals",
+            "src": "/images/graphs/Canoe Marathon_medals.png",
+            "title": "Canoe Marathon_medals",
+            "paragraph1": "Top 3 countries in Canoe Marathon: HUN (6 medals), FRA (4 medals), SWE (4 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Canoe Slalom_medals",
+            "src": "/images/graphs/Canoe Slalom_medals.png",
+            "title": "Canoe Slalom_medals",
+            "paragraph1": "Top 3 countries in Canoe Slalom: GER (28 medals), FRA (22 medals), SVK (20 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Canoe Sprint_medals",
+            "src": "/images/graphs/Canoe Sprint_medals.png",
+            "title": "Canoe Sprint_medals",
+            "paragraph1": "Top 3 countries in Canoe Sprint: GER (141 medals), HUN (111 medals), RUS (89 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cricket_medals",
+            "src": "/images/graphs/Cricket_medals.png",
+            "title": "Cricket_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Croquet_medals",
+            "src": "/images/graphs/Croquet_medals.png",
+            "title": "Croquet_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cycling BMX Freestyle_medals",
+            "src": "/images/graphs/Cycling BMX Freestyle_medals.png",
+            "title": "Cycling BMX Freestyle_medals",
+            "paragraph1": "Top 3 countries in Cycling BMX Freestyle: GBR (2 medals), USA (1 medals), SUI (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cycling BMX Racing_medals",
+            "src": "/images/graphs/Cycling BMX Racing_medals.png",
+            "title": "Cycling BMX Racing_medals",
+            "paragraph1": "Top 3 countries in Cycling BMX Racing: GBR (2 medals), COL (2 medals), NED (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cycling BMX_medals",
+            "src": "/images/graphs/Cycling BMX_medals.png",
+            "title": "Cycling BMX_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cycling Mountain Bike_medals",
+            "src": "/images/graphs/Cycling Mountain Bike_medals.png",
+            "title": "Cycling Mountain Bike_medals",
+            "paragraph1": "Top 3 countries in Cycling Mountain Bike: SUI (9 medals), ESP (4 medals), FRA (4 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cycling Road_medals",
+            "src": "/images/graphs/Cycling Road_medals.png",
+            "title": "Cycling Road_medals",
+            "paragraph1": "Top 3 countries in Cycling Road: ITA (20 medals), GER (19 medals), NED (18 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Cycling Track_medals",
+            "src": "/images/graphs/Cycling Track_medals.png",
+            "title": "Cycling Track_medals",
+            "paragraph1": "Top 3 countries in Cycling Track: GBR (86 medals), FRA (73 medals), GER (69 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Diving_medals",
+            "src": "/images/graphs/Diving_medals.png",
+            "title": "Diving_medals",
+            "paragraph1": "Top 3 countries in Diving: USA (145 medals), CHN (104 medals), RUS (43 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Equestrian  Vaulting_medals",
+            "src": "/images/graphs/Equestrian  Vaulting_medals.png",
+            "title": "Equestrian  Vaulting_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Equestrian Dressage_medals",
+            "src": "/images/graphs/Equestrian Dressage_medals.png",
+            "title": "Equestrian Dressage_medals",
+            "paragraph1": "Top 3 countries in Equestrian Dressage: GER (40 medals), SWE (17 medals), NED (12 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Equestrian Eventing_medals",
+            "src": "/images/graphs/Equestrian Eventing_medals.png",
+            "title": "Equestrian Eventing_medals",
+            "paragraph1": "Top 3 countries in Equestrian Eventing: USA (25 medals), GER (23 medals), GBR (17 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Equestrian Jumping_medals",
+            "src": "/images/graphs/Equestrian Jumping_medals.png",
+            "title": "Equestrian Jumping_medals",
+            "paragraph1": "Top 3 countries in Equestrian Jumping: GER (22 medals), USA (18 medals), FRA (17 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Equestrian_medals",
+            "src": "/images/graphs/Equestrian_medals.png",
+            "title": "Equestrian_medals",
+            "paragraph1": "Top 3 countries in Equestrian: GBR (5 medals), GER (4 medals), AUS (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Fencing_medals",
+            "src": "/images/graphs/Fencing_medals.png",
+            "title": "Fencing_medals",
+            "paragraph1": "Top 3 countries in Fencing: ITA (130 medals), FRA (123 medals), HUN (90 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Figure skating_medals",
+            "src": "/images/graphs/Figure skating_medals.png",
+            "title": "Figure skating_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Figure_1",
+            "src": "/images/graphs/Figure_1.png",
+            "title": "Figure_1",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Football_medals",
+            "src": "/images/graphs/Football_medals.png",
+            "title": "Football_medals",
+            "paragraph1": "Top 3 countries in Football: GER (10 medals), BRA (9 medals), USA (8 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Golf_medals",
+            "src": "/images/graphs/Golf_medals.png",
+            "title": "Golf_medals",
+            "paragraph1": "Top 3 countries in Golf: USA (13 medals), GBR (3 medals), NZL (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Gymnastics Artistic_medals",
+            "src": "/images/graphs/Gymnastics Artistic_medals.png",
+            "title": "Gymnastics Artistic_medals",
+            "paragraph1": "Top 3 countries in Gymnastics Artistic: RUS (226 medals), USA (114 medals), JPN (98 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Gymnastics Rhythmic_medals",
+            "src": "/images/graphs/Gymnastics Rhythmic_medals.png",
+            "title": "Gymnastics Rhythmic_medals",
+            "paragraph1": "Top 3 countries in Gymnastics Rhythmic: RUS (18 medals), BLR (6 medals), UKR (5 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Handball_medals",
+            "src": "/images/graphs/Handball_medals.png",
+            "title": "Handball_medals",
+            "paragraph1": "Top 3 countries in Handball: RUS (11 medals), FRA (7 medals), NOR (7 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Hockey_medals",
+            "src": "/images/graphs/Hockey_medals.png",
+            "title": "Hockey_medals",
+            "paragraph1": "Top 3 countries in Hockey: NED (18 medals), GER (15 medals), AUS (13 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Ice Hockey_medals",
+            "src": "/images/graphs/Ice Hockey_medals.png",
+            "title": "Ice Hockey_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Jeu de Paume_medals",
+            "src": "/images/graphs/Jeu de Paume_medals.png",
+            "title": "Jeu de Paume_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Judo_medals",
+            "src": "/images/graphs/Judo_medals.png",
+            "title": "Judo_medals",
+            "paragraph1": "Top 3 countries in Judo: JPN (96 medals), FRA (57 medals), KOR (46 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Karate_medals",
+            "src": "/images/graphs/Karate_medals.png",
+            "title": "Karate_medals",
+            "paragraph1": "Top 3 countries in Karate: TUR (4 medals), JPN (3 medals), CHN (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Lacrosse_medals",
+            "src": "/images/graphs/Lacrosse_medals.png",
+            "title": "Lacrosse_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Marathon Swimming_medals",
+            "src": "/images/graphs/Marathon Swimming_medals.png",
+            "title": "Marathon Swimming_medals",
+            "paragraph1": "Top 3 countries in Marathon Swimming: NED (4 medals), ITA (3 medals), GER (3 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Modern Pentathlon_medals",
+            "src": "/images/graphs/Modern Pentathlon_medals.png",
+            "title": "Modern Pentathlon_medals",
+            "paragraph1": "Top 3 countries in Modern Pentathlon: HUN (23 medals), SWE (21 medals), RUS (20 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Polo_medals",
+            "src": "/images/graphs/Polo_medals.png",
+            "title": "Polo_medals",
+            "paragraph1": "Top 3 countries in Polo: GBR (6 medals), MIX (4 medals), ARG (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Rackets_medals",
+            "src": "/images/graphs/Rackets_medals.png",
+            "title": "Rackets_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Rhythmic Gymnastics_medals",
+            "src": "/images/graphs/Rhythmic Gymnastics_medals.png",
+            "title": "Rhythmic Gymnastics_medals",
+            "paragraph1": "Top 3 countries in Rhythmic Gymnastics: RUS (2 medals), ISR (1 medals), BLR (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Roque_medals",
+            "src": "/images/graphs/Roque_medals.png",
+            "title": "Roque_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Rowing_medals",
+            "src": "/images/graphs/Rowing_medals.png",
+            "title": "Rowing_medals",
+            "paragraph1": "Top 3 countries in Rowing: GER (154 medals), USA (111 medals), GBR (94 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Rugby Sevens_medals",
+            "src": "/images/graphs/Rugby Sevens_medals.png",
+            "title": "Rugby Sevens_medals",
+            "paragraph1": "Top 3 countries in Rugby Sevens: FIJ (2 medals), NZL (2 medals), ARG (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Rugby_medals",
+            "src": "/images/graphs/Rugby_medals.png",
+            "title": "Rugby_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Sailing_medals",
+            "src": "/images/graphs/Sailing_medals.png",
+            "title": "Sailing_medals",
+            "paragraph1": "Top 3 countries in Sailing: USA (91 medals), GBR (87 medals), FRA (59 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Shooting_medals",
+            "src": "/images/graphs/Shooting_medals.png",
+            "title": "Shooting_medals",
+            "paragraph1": "Top 3 countries in Shooting: USA (118 medals), RUS (90 medals), CHN (69 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Skateboarding_medals",
+            "src": "/images/graphs/Skateboarding_medals.png",
+            "title": "Skateboarding_medals",
+            "paragraph1": "Top 3 countries in Skateboarding: JPN (5 medals), BRA (3 medals), USA (2 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Softball_medals",
+            "src": "/images/graphs/Softball_medals.png",
+            "title": "Softball_medals",
+            "paragraph1": "Top 3 countries in Softball: USA (4 medals), AUS (4 medals), JPN (3 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Sport Climbing_medals",
+            "src": "/images/graphs/Sport Climbing_medals.png",
+            "title": "Sport Climbing_medals",
+            "paragraph1": "Top 3 countries in Sport Climbing: JPN (2 medals), USA (1 medals), ESP (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Surfing_medals",
+            "src": "/images/graphs/Surfing_medals.png",
+            "title": "Surfing_medals",
+            "paragraph1": "Top 3 countries in Surfing: JPN (2 medals), RSA (1 medals), USA (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Swimming_medals",
+            "src": "/images/graphs/Swimming_medals.png",
+            "title": "Swimming_medals",
+            "paragraph1": "Top 3 countries in Swimming: USA (581 medals), AUS (212 medals), GER (187 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Synchronized Swimming_medals",
+            "src": "/images/graphs/Synchronized Swimming_medals.png",
+            "title": "Synchronized Swimming_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Table Tennis_medals",
+            "src": "/images/graphs/Table Tennis_medals.png",
+            "title": "Table Tennis_medals",
+            "paragraph1": "Top 3 countries in Table Tennis: CHN (77 medals), KOR (27 medals), GER (10 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Taekwondo_medals",
+            "src": "/images/graphs/Taekwondo_medals.png",
+            "title": "Taekwondo_medals",
+            "paragraph1": "Top 3 countries in Taekwondo: KOR (22 medals), CHN (11 medals), USA (10 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Tennis_medals",
+            "src": "/images/graphs/Tennis_medals.png",
+            "title": "Tennis_medals",
+            "paragraph1": "Top 3 countries in Tennis: GBR (62 medals), USA (60 medals), FRA (30 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Trampoline Gymnastics_medals",
+            "src": "/images/graphs/Trampoline Gymnastics_medals.png",
+            "title": "Trampoline Gymnastics_medals",
+            "paragraph1": "Top 3 countries in Trampoline Gymnastics: CHN (3 medals), NZL (1 medals), GBR (1 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Trampoline_medals",
+            "src": "/images/graphs/Trampoline_medals.png",
+            "title": "Trampoline_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Triathlon_medals",
+            "src": "/images/graphs/Triathlon_medals.png",
+            "title": "Triathlon_medals",
+            "paragraph1": "Top 3 countries in Triathlon: GBR (8 medals), SUI (5 medals), AUS (5 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Tug of War_medals",
+            "src": "/images/graphs/Tug of War_medals.png",
+            "title": "Tug of War_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Volleyball_medals",
+            "src": "/images/graphs/Volleyball_medals.png",
+            "title": "Volleyball_medals",
+            "paragraph1": "Top 3 countries in Volleyball: RUS (19 medals), USA (11 medals), BRA (11 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Water Motorsports_medals",
+            "src": "/images/graphs/Water Motorsports_medals.png",
+            "title": "Water Motorsports_medals",
+            "paragraph1": "Option 3 paragraph 1 content...",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Water Polo_medals",
+            "src": "/images/graphs/Water Polo_medals.png",
+            "title": "Water Polo_medals",
+            "paragraph1": "Top 3 countries in Water Polo: HUN (17 medals), USA (15 medals), RUS (11 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Weightlifting_medals",
+            "src": "/images/graphs/Weightlifting_medals.png",
+            "title": "Weightlifting_medals",
+            "paragraph1": "Top 3 countries in Weightlifting: RUS (80 medals), CHN (62 medals), USA (44 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        },
+        {
+            "id": "Wrestling_medals",
+            "src": "/images/graphs/Wrestling_medals.png",
+            "title": "Wrestling_medals",
+            "paragraph1": "Top 3 countries in Wrestling: RUS (183 medals), USA (138 medals), SWE (86 medals)",
+            "paragraph2": "Option 3 paragraph 2 content..."
+        }
+    ]
+}
