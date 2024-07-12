@@ -86,12 +86,37 @@ body {
 
 .sub-content {
     flex-direction: column;
+    display: inline-block;
+    text-align: center;
 }
+
+.section-one {
+    flex-direction: column;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+
+.section-two {
+    flex-direction: column;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.section-three {
+    flex-direction: column;
+    display: inline-block;
+    text-align: center;
+    width: 30%
+}
+
 
 .content-section img {
     height: auto;
     padding-top: 2%;
-    text-align: left;
+    text-align: center;
     max-width: 50%;
     height: auto;
     display: inline-block
@@ -99,7 +124,7 @@ body {
 
 .text-content {
     width: 100%;
-    max-width: 612px;
+    max-width: 300px;
     background: white;
     padding: 64px;
     opacity: 0.8;
