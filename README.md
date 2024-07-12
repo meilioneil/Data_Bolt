@@ -1,5 +1,5 @@
 # Data Bolts - Codedex Hackathon 2024
-<img  src="images/logo.png"  alt="Logo">
+<img  src="wp/images/logo.png"  alt="Logo">
 For graphing Olympic data and predicting the performance of countries.
 
 ## Description
@@ -8,7 +8,7 @@ Data Bolt is a comprehensive tool designed to visualize Olympic data and predict
 
 Website: https://faisalmujawar148.github.io/
 
-<img src="images/graphs/Figure_1.png" alt="graph">
+<img src="wp/images/graphs/Figure_1.png" alt="graph">
 
 
 ## Getting Started
