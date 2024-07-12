@@ -5,6 +5,9 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
+@app.route('/index')
+def foo():
+    return render_template('index.html')
 
 @app.route('/contact')
 def contact():
@@ -19,4 +22,4 @@ def information():
     return render_template('information.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
