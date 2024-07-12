@@ -16,7 +16,7 @@ Data Bolt is a comprehensive tool designed to visualize Olympic data and predict
 * seaborn
 * matplotlib
 * scikit-learn
-* OS: Windows 10 or higher
+* OS: Windows 10 or higher (...because I sinned by being forced to use Window's file pathing...)
 
 To install the necessary Python libraries, you can use the following command:
 ```sh
