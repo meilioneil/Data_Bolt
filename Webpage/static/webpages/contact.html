@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Us - 2024 Paris Olympics Prediction</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="style_contact.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
             <div class="logo">
                 <a href="{{ url_for('index') }}">
-                    <img src="{{ url_for('static', filename='logo.png') }}" alt="Data Bolt Logo">
+                    <img src="/static/logo.png" alt="Data Bolt Logo">
+                    
                 </a>
             </div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="{{ url_for('graphs') }}">More Graphs</a></li>
                     <li><a href="{{ url_for('information') }}">Information</a></li>
                     <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
