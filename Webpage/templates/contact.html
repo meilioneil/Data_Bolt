@@ -9,19 +9,19 @@
     <link rel="stylesheet" type="text/css" href="style_contact.css">
 </head>
 <header class="header">
-            <div class="logo">
-                <a href="contact.html">
-                    <img src="/static/logo.png" alt="Data Bolt Logo">
-                </a>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="graphs.html">More Graphs</a></li>
-                    <li><a href="information.html">Information</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
+    <div class="logo">
+        <a href="{{ url_for('index') }}">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Data Bolt Logo">
+        </a>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('graphs') }}">More Graphs</a></li>
+            <li><a href="{{ url_for('information') }}">Information</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+        </ul>
+    </nav>
 </header>
 <body>
     <div class="container">
