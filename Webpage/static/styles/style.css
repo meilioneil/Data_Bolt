@@ -108,8 +108,10 @@ body {
     flex-direction: column;
     display: inline-block;
     text-align: center;
-    width: 30%
+    width: 30%;
+    padding-top: 1%;
 }
+
 
 
 .content-section img {
@@ -132,15 +134,27 @@ body {
     text-align: center;
     display: inline-block;
     position: absolute;
+    padding: 2%;
 }
 
 .text-content {
     max-width: 70%;
     background: white;
-    padding: 64px;
     opacity: 0.8;
     display: inline-block;
     gap: 24px;
+}
+
+.text-content.s1 {
+    padding: 30px;
+}
+
+.text-content.s2 {
+    padding: 30px;
+}
+
+.text-content.s3 {
+    padding: 30px;
 }
 
 .text-content h3 {
