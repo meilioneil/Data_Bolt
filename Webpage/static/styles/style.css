@@ -169,6 +169,10 @@ body {
     font-weight: 400;
 }
 
+.parent-button {
+    padding: 15px;
+}
+
 .button {
     padding: 12px;
     background: #E3E3E3;
@@ -178,6 +182,8 @@ body {
     color: #1E1E1E;
     font-size: 1em;
     font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .footer {
