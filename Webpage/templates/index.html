@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
     <title>2024 Paris Olympics Prediction</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
 </head>
-
 <body>
     <div class="container">
         <header class="header">
@@ -26,27 +24,22 @@
                 </ul>
             </nav>
         </header>
-
         <div class="intro">
             <h1>Olympics 2024 Prediction</h1>
             <h2>Brought to you by Data Bolt</h2>
         </div>
-
         <div class="content-section">
             <div class="content-section-one">
-                <img src="/static/Figure_1.png" alt="Olympics Image">
+                <img src="{{ url_for('static', filename='Figure_1.png') }}" alt="Olympics Image">
             </div>
             <div class="content-section-two">
                 <div class="text-content">
                     <h3>Some Context...</h3>
-                    <p>Hello! We are are group known as Data Bolt⚡. This project is dedicated towards </p>
+                    <p>Hello! We are a group known as Data Bolt⚡. This project is dedicated to...</p>
                     <p>The way we came up with this prediction is by...</p>
                 </div>
             </div>
-            
-            <!--<div class="button">Olympic Event</div>-->
         </div>
-
         <div class="sub-content">
             <div class="section-one">
                 <img src="https://via.placeholder.com/160x160" alt="Placeholder Image">
@@ -72,9 +65,7 @@
                     <div class="button">Button</div>
                 </div>
             </div>
-            
         </div>
-
         <footer class="footer">
             <div class="footer-column">
                 <h2>Use cases</h2>
@@ -113,7 +104,6 @@
                 </ul>
             </div>
         </footer>
-
         <div class="end-of-results">
             <div></div>
             <span>END OF RESULTS</span>
@@ -121,5 +111,4 @@
         </div>
     </div>
 </body>
-
 </html>

@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Us - 2024 Paris Olympics Prediction</title>
-    <link rel="stylesheet" type="text/css" href="style_contact.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
 </head>
-<header class="header">
-    <div class="logo">
-        <a href="{{ url_for('index') }}">
-            <img src="{{ url_for('static', filename='logo.png') }}" alt="Data Bolt Logo">
-        </a>
-    </div>
-    <nav class="navbar">
-        <ul>
-            <li><a href="{{ url_for('index') }}">Home</a></li>
-            <li><a href="{{ url_for('graphs') }}">More Graphs</a></li>
-            <li><a href="{{ url_for('information') }}">Information</a></li>
-            <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
     <div class="container">
-        <header class="header"></header>
-
+        <header class="header">
+            <div class="logo">
+                <a href="{{ url_for('index') }}">
+                    <img src="{{ url_for('static', filename='logo.png') }}" alt="Data Bolt Logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('graphs') }}">More Graphs</a></li>
+                    <li><a href="{{ url_for('information') }}">Information</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
         <main class="main">
             <section class="contact-us">
                 <h1>Contact Us!</h1>
@@ -52,7 +49,6 @@
                 </form>
             </section>
         </main>
-
         <footer class="footer">
             <div class="footer-column">
                 <h2>Use cases</h2>
@@ -93,5 +89,4 @@
         </footer>
     </div>
 </body>
-
 </html>
