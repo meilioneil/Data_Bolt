@@ -1,5 +1,5 @@
 # Data Bolts - Codedex Hackathon 2024
-
+<img  src="Webpage/static/logo.png"  alt="Logo"  width="80"  height="80">
 For graphing Olympic data and predicting the performance of countries.
 
 ## Description
