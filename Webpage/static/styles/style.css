@@ -79,14 +79,21 @@ body {
     border-radius: 5px;
     border: 1px dotted #9747FF;
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
+.sub-content {
+    flex-direction: column;
+}
+
 .content-section img {
-    max-width: 100%;
     height: auto;
+    padding-top: 2%;
+    text-align: left;
+    max-width: 50%;
+    height: auto;
+    display: inline-block
 }
 
 .text-content {
@@ -95,7 +102,7 @@ body {
     background: white;
     padding: 64px;
     opacity: 0.8;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     gap: 24px;
 }
